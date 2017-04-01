@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_gravity="center"
+        android:id="@+id/md_user"
+        fancy:fb_text = ""
+        fancy:fb_defaultColor="#00000000"
+        fancy:fb_textColor = "#ffffff"
+        fancy:fb_iconFont = "iconfont.ttf"
+        fancy:fb_fontIconSize = "20dp"
+        fancy:fb_fontIconResource ="@string/user"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+
+    <View
+        android:layout_marginTop="5dp"
+        android:id="@+id/line"
+        android:layout_alignLeft="@id/md_user"
+        android:layout_alignRight="@id/md_user"
+        android:layout_below="@id/md_user"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <EditText
+        android:id="@+id/tv_name"
+        android:hint=""
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/md_user"
+        android:background="@null"
+        android:drawableBottom="@drawable/line"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

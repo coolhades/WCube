@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ftGround">#aaffffff</color>
+    <color name="ftHeaderGround">#ddffffff</color>
+    <color name="btn_ConnectText">#ffffff</color>
+    <color name="btn_ConnectGround">#8CC82E</color>
+    <color name="btn_ConnectGround_focus">#B3FF3B</color>
+
+</resources>

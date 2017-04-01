@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/rl"
+    android:padding="@dimen/dp_6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/leftPic"
+        fancy:fb_text = ""
+        fancy:fb_defaultColor="#00000000"
+        fancy:fb_textColor = "#ffffff"
+        fancy:fb_fontIconSize = "40dp"
+        fancy:fb_iconFont = "iconfont.ttf"
+        fancy:fb_fontIconResource ="@string/pholder_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/leftPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/leftPic"
+        android:layout_below="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/imagePic"
+        android:layout_toLeftOf="@+id/videoPic"
+        fancy:fb_text = "2"
+        fancy:fb_iconPosition = "left"
+        fancy:fb_defaultColor="#00000000"
+        fancy:fb_textColor = "#ffffff"
+        fancy:fb_fontIconSize = "40dp"
+        fancy:fb_iconFont = "iconfont.ttf"
+        fancy:fb_fontIconResource ="@string/pholder_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/videoPic"
+        android:layout_alignParentRight="true"
+        fancy:fb_text = "1"
+        fancy:fb_iconPosition = "left"
+        fancy:fb_defaultColor="#00000000"
+        fancy:fb_textColor = "#ffffff"
+        fancy:fb_fontIconSize = "40dp"
+        fancy:fb_iconFont = "iconfont.ttf"
+        fancy:fb_fontIconResource ="@string/pholder_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+</RelativeLayout>

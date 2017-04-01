@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_control"
+    android:orientation="vertical"
+    tools:context="com.hades.wcube.cubecontrol.ControlActivity">
+
+    <include
+    layout="@layout/module_header_control"/>
+
+    <LinearLayout
+        android:id="@+id/btn_viewmode"
+        android:layout_weight="1"
+        android:background="@drawable/viewmode_st"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_viewmode"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            android:text="@string/btn_viewmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="View Mode"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_controlmode"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/controlmode_st"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_controlmode"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            android:text="@string/btn_controlmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Control Mode"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

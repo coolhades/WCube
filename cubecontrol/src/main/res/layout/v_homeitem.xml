@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ly"
+    android:background="@color/Ground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_home"
+        android:padding="4dp"
+        fancy:fb_text = ""
+        fancy:fb_defaultColor="#00000000"
+        fancy:fb_textColor = "#ffffff"
+        fancy:fb_fontIconSize = "35dp"
+        fancy:fb_iconFont = "iconfont.ttf"
+        fancy:fb_fontIconResource ="@string/btn_home"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+</LinearLayout>

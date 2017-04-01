@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WCubeVR</string>
+
+    <string name="sg_connect">连接服务器</string>
+    <string name="btn_back">&#xe61d;</string>
+    <string name="btn_viewmode">&#xe601;</string>
+    <string name="btn_controlmode">&#xe7be;</string>
+    <string name="btn_home">&#xe600;</string>
+    <string name="pwd">&#xe61b;</string>
+    <string name="user">&#xe625;</string>
+    <string name="btn_reload">&#xe648;</string>
+    <string name="btn_close">&#xe61c;</string>
+    <string name="pholder_image">&#xe6e9;</string>
+    <string name="pholder_control">&#xe60b;</string>
+    <string name="pholder_video">&#xe644;</string>
+    <string name="pholder_file">&#xe667;</string>
+    <string name="vr">&#xe618;</string>
+    <string name="checkbox">&#xe61a;</string>
+    <string name="cloud">&#xe681;</string>
+
+
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/Ground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/module_header_connect"/>
+
+    <RelativeLayout
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/downloadGround"
+        android:padding="8dp">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="4dp"
+            fancy:fb_defaultColor="#00000000"
+            fancy:fb_fontIconResource="@string/cloud"
+            fancy:fb_fontIconSize="60sp"
+            fancy:fb_iconFont="iconfont.ttf"
+            fancy:fb_text=""
+            fancy:fb_textColor="#ffffff"></mehdi.sakout.fancybuttons.FancyButton>
+
+        <TextView
+            android:id="@+id/tv_contenttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="视频资源下载"
+            android:textColor="@color/white"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toEndOf="@+id/icon" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_contenttitle"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/icon"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_goplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/downloadGround"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:padding="8dp">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/icon2"
+            android:padding="4dp"
+            fancy:fb_text = ""
+            fancy:fb_defaultColor="#00000000"
+            fancy:fb_textColor = "#ffffff"
+            fancy:fb_fontIconSize = "60sp"
+            fancy:fb_iconFont = "iconfont.ttf"
+            fancy:fb_fontIconResource ="@string/cloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </mehdi.sakout.fancybuttons.FancyButton>
+
+        <TextView
+            android:id="@+id/tv_contenttitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="视频资源下载"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/icon2"
+            android:layout_toEndOf="@+id/icon2"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_contenttitle2"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/icon2"
+            android:id="@+id/textView" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

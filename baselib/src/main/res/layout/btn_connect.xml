@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mehdi.sakout.fancybuttons.FancyButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btn_startconnect"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="48dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="18dp"
+    android:gravity="center"
+    fancy:fb_borderColor="@color/btn_ConnectGround"
+    fancy:fb_borderWidth="0dp"
+    fancy:fb_defaultColor="@color/btn_ConnectGround"
+    fancy:fb_focusColor="@color/btn_ConnectGround_focus"
+    fancy:fb_radius="0dp"
+    fancy:fb_text="@string/sg_connect"
+    fancy:fb_textColor="@color/btn_ConnectText">
+
+</mehdi.sakout.fancybuttons.FancyButton>

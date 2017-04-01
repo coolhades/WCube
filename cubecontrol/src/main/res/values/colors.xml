@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9F9F9F</color>
+    <color name="colorPrimaryDark">#9F9F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="viewBg">#69B5B9</color>
+    <color name="controlBG">#AA3B6D</color>
+
+    <color name="lightGreen">#31C21B</color>
+
+    <color name="ftGround">#aaffffff</color>
+    <color name="ftHeaderGround">#ddffffff</color>
+    <color name="btn_ConnectText">#ffffff</color>
+    <color name="btn_ConnectGround">#8CC82E</color>
+    <color name="btn_ConnectGround_focus">#B3FF3B</color>
+
+
+    <color name="Ground">#aa757575</color>
+    <color name="lightGround">#67757575</color>
+    <color name="lightestGround">#22757575</color>
+    <color name="white">#ffffff</color>
+    <color name="lightWhite">#6fE3E1DD</color>
+    <color name="noColor">#00000000</color>
+</resources>

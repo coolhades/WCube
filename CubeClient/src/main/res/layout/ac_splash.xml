@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@mipmap/gb_viewmode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/logo_sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_marginTop="200dp"
+        android:id="@+id/btn_viewmode"
+        android:padding="4dp"
+        fancy:fb_text = "主控端"
+        fancy:fb_defaultColor="#56757575"
+        fancy:fb_iconPosition = "top"
+        fancy:fb_textColor = "#ffffff"
+        fancy:fb_fontIconSize = "100dp"
+        fancy:fb_fontIconResource ="@string/vr"
+        fancy:fb_iconFont = "iconfont.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <TextView
+        android:layout_marginTop="260dp"
+        android:padding="8dp"
+        android:text="IR 360智能终端"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="北京水晶石科技股份有限公司 版权所有"
+        android:padding="8dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

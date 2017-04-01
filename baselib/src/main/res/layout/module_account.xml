@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/md_cloud"
+        android:layout_gravity="center"
+        fancy:fb_text = ""
+        fancy:fb_defaultColor="#00000000"
+        fancy:fb_textColor = "#ffffff"
+        fancy:fb_iconFont = "iconfont.ttf"
+        fancy:fb_fontIconSize = "25dp"
+        fancy:fb_fontIconResource ="@string/cloud"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content">
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <View
+        android:id="@+id/line"
+        android:layout_alignLeft="@id/md_cloud"
+        android:layout_alignRight="@id/md_cloud"
+        android:layout_below="@id/md_cloud"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <EditText
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/md_cloud"
+        android:hint=""
+        android:background="@null"
+        android:drawableBottom="@drawable/line"
+        android:singleLine="true"
+        android:gravity="center"
+        android:id="@+id/ed_cloud"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

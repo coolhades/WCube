@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_back"
+        android:padding="4dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        fancy:fb_text = ""
+        fancy:fb_defaultColor="#00000000"
+        fancy:fb_textColor = "#ffffff"
+        fancy:fb_fontIconSize = "30dp"
+        fancy:fb_fontIconResource ="@string/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginTop="6dp"
+        android:padding="4dp"
+        android:text="秦策"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/img_head"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_email"
+        android:text="email"
+        android:padding="4dp"
+        android:layout_marginBottom="@dimen/dp_6"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
